@@ -79,14 +79,15 @@ ClassicEditor.defaultConfig = {
 			// 'redo'
 		]
 	},
-	// image: {
-	// 	toolbar: [
-	// 		'imageStyle:full',
-	// 		'imageStyle:side',
-	// 		'|',
-	// 		'imageTextAlternative'
-	// 	]
-	// },
+	image: {
+		toolbar: [
+            'imageStyle:alignLeft',
+			'imageStyle:full',
+            'imageStyle:alignRight',
+            '|',
+			'imageTextAlternative'
+		]
+	},
 	table: {
 		contentToolbar: [
 			'tableColumn',
